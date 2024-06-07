@@ -97,7 +97,12 @@ li :hover{
     flex-direction: column;
     justify-content: space-between;
     button{
-        border: none;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+/*         border: none;
         background: url(/assets/icons8-delete-24.png);
         background-size: contain;
         padding: 10px;
@@ -108,7 +113,7 @@ li :hover{
         font-size: 10px;
         /* margin: 4px 2px; */
         cursor: pointer;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
     
 }
