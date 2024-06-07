@@ -19,16 +19,21 @@ header{
         top: 8px;
     }
         .toggle-all{
-        background: url(assets/icons8-arrow-90.png);
-        width: 25px;
-        height: 25px;
-        margin: 4px;
-        background-color: #999;
-        border: 2px solid whitesmoke;
-        border-radius: 20px;
+        border: none;
+        background: url(https://img.icons8.com/?size=100&id=87356&format=png&color=000000);
+        background-size: contain;
+        padding: 10px;
+        place-content: space-between end;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px; 
+        cursor: pointer;
+        background-repeat: no-repeat;
         }
         .toggle-all:hover{
-            background-color: #b83f45;
+            transform: scale(1.1);
         }
     }
 
@@ -96,14 +101,9 @@ li :hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    button{
-      font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24
-/*         border: none;
-        background: url(/assets/icons8-delete-24.png);
+     button{
+        border: none;
+        background: url(https://img.icons8.com/?size=100&id=83149&format=png&color=000000);
         background-size: contain;
         padding: 10px;
         place-content: space-between end;
@@ -111,11 +111,10 @@ li :hover{
         text-decoration: none;
         display: inline-block;
         font-size: 10px;
-        /* margin: 4px 2px; */
+        margin: 4px 2px; 
         cursor: pointer;
-        background-repeat: no-repeat; */
+        background-repeat: no-repeat;
     }
-    
 }
 
 .completed-task{
